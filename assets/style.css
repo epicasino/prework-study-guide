@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card /*period before "card" is a class selector. HTML element assigned to class card will apply*/ {
+    width: 80%; /* uses 80% of element's available width */
+    margin: 40px auto; /* assigns 40px to top & bottom, auto value to left and right */
+    border: 5px solid gray; /* assigns border w/ width of 5px that's solid & gray */
+    box-shadow: 5px 10px #888888; 
+    /* CSS property adds shadow effects around an element's frame. 
+    You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.
+    We’ve used an HTML hexadecimal code to define the color https://htmlcolorcodes.com/ */
+}

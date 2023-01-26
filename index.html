@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
 
@@ -17,29 +19,59 @@
     </header>
    
     <main>
+
+      <!-- HTML SECTION -->
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
           <li>Enter your HTML notes here</li>
           <li> HTML is the framework of a web application.</li>
-          <li>The head element contains information about the webpage. 
-            <b>NOTE: THE HEAD ELEMENT ISNT USUALLY VISIBLE TO USERS.</b> 
-          </li>
+          <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
           <li>
             W3 Link to HTML meta tag: 
             <a href="https://www.w3schools.com/tags/tag_meta.asp">https://www.w3schools.com/tags/tag_meta.asp</a>
           </li>
+          <li>&lt;!-- add comment in html --&gt; or /* add comment in html */</li>
         </ul>
       </section>
-   
+
+      <!-- CSS SECTION -->
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
           <li>Enter your CSS notes here</li>
+          <li>Adds style to a webpage. Defines how webpage content is presented to users, define style rules for specific elements of HTML page and format them w/ style options</li>
+          <li>Three ways to style w/ CSS:
+            <ol>
+              <li>Inline CSS: useful for quick & permanent changes, not flexible</li>
+              <li>Internal CSS: contains CSS rules for webpage in head section of HTML file</li>
+              <li>External CSS: most preferred in most cases, allows all CSS rules in separate file, makes design changes easier
+                <ul>
+                  <li>&lt;link&gt; element in &lt;head&gt;. <i>ex: &lt;link rel="stylesheet" href="./assets/style.css" /&gt;</i></li>
+                  <li>rel: specifies relationship between current document & linked document</li>
+                  <li>href: specifies location (URL) of external resource, using a relative path derived from file's current location</li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+          <li>go to style.css for breakdown of selectors and declarations</li>
+          <li>selector: defines element or attributes to which rules, or declarations, will apply</li>
+                  <li>declarations: two components 
+                    <ol>
+                      <li>the CSS property we want to apply</li>
+                      <li>the value for that property</li>
+                    </ol>
+                  </li>
+          <li>margin: indicates how much space we want around the <b>outside</b> of an element. not visible on page, adds a buffer</li>
+          <li>padding: adds space around content <b>inside</b> an element.</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">info on box model for CSS</a></li>
+          <li>applying rule to <b>all</b> elements: * symbol</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Link to MDN Web Docs on CSS</a> to see CSS properties and values</li>
         </ul>
       </section>
    
+      <!-- GIT SECTION -->
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
@@ -57,11 +89,12 @@
         </li>
         <li>git add -A: commit all files in the working branch</li>
         <li>git commit -m <i>[insert changes to code here]</i>: commit all changes to repo</li>
-        <li>git pull origin main: make sure current branch is up to date</li>
+        <li>git pull origin main: make sure current branch is up to date w/ main</li>
         <li>git push origin [example/example]: pushes changes on github</li>
         </ul>
       </section>
-   
+
+      <!-- JS SECTION -->
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
