@@ -24,8 +24,10 @@ else {
 }
 */
 
+/*
 
-//ARRAY EXAMPLE
+ARRAY EXAMPLE
+
 var shapes = ["triangle", "square", "pentagon", "circle"];
             //use open square brackets to indicate array
 
@@ -39,8 +41,6 @@ for(var x = 0; x < shapes.length; x++) {
 
 //CONDITIONAL STATEMENTS & LOOPS//
 
-/*
-
 IF & ELSE IF STATEMENT EXAMPLES
 if (condition) {
  // block of code to be executed if condition is truthy (more info on truthy: https://developer.mozilla.org/en-US/docs/Glossary/Truthy)
@@ -52,9 +52,6 @@ if (first condition) {
    // block of code to be executed if second condition is truthy
 }
 
-*/
-
-/*
 FOR LOOP STATEMENT EX.
 
 1. first statement determines the starting point for our loop
