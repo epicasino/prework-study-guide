@@ -26,18 +26,12 @@ function selectTopic() {
   }
 }
 
-<<<<<<< HEAD
 console.log('Here are the topics we learned through Prework:');
 listTopics()
 console.log('Which topic should we study first?');
 selectTopic()
 
 /*
-=======
-/*
-
-ARRAY EXAMPLE
->>>>>>> 0ab78f82d88db1fa2507153d90bcac2f9a0728cd
 
 var shapes = ["triangle", "square", "pentagon", "circle"];
             //use open square brackets to indicate array
