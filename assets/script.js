@@ -26,14 +26,19 @@ function selectTopic() {
   }
 }
 
+<<<<<<< HEAD
 console.log('Here are the topics we learned through Prework:');
 listTopics()
 console.log('Which topic should we study first?');
 selectTopic()
 
 /*
+=======
+/*
 
-//ARRAY EXAMPLE
+ARRAY EXAMPLE
+>>>>>>> 0ab78f82d88db1fa2507153d90bcac2f9a0728cd
+
 var shapes = ["triangle", "square", "pentagon", "circle"];
             //use open square brackets to indicate array
 
@@ -55,8 +60,6 @@ function helloWorld() {
 
 //CONDITIONAL STATEMENTS & LOOPS//
 
-/*
-
 IF & ELSE IF STATEMENT EXAMPLES
 if (condition) {
  // block of code to be executed if condition is truthy (more info on truthy: https://developer.mozilla.org/en-US/docs/Glossary/Truthy)
@@ -68,9 +71,6 @@ if (first condition) {
    // block of code to be executed if second condition is truthy
 }
 
-*/
-
-/*
 FOR LOOP STATEMENT EX.
 
 1. first statement determines the starting point for our loop
