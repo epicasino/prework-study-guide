@@ -92,6 +92,13 @@
         <li>git commit -m <i>[insert changes to code here]</i>: commit all changes to repo</li>
         <li>git pull origin main: make sure current branch is up to date w/ main</li>
         <li>git push origin [example/example]: pushes changes on github</li>
+        <li>If the remote branch was deleted:
+          <ul>
+            <li>Check your local git config if it still refers to the old-branch: <code>git config --get-all remote.origin.fetch</code></li>
+            <li>Removing the old refs entries, can fix the fetch problem: <code>git config --unset-all remote.origin.fetch</code></li>
+            <li>Then <code>git fetch --prune --all</code></li>
+          </ul>
+        </li>
         </ul>
       </section>
 
